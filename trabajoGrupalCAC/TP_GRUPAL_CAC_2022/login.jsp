@@ -9,19 +9,19 @@
 <div class="sidenav">
          <div class="login-main-text">
             <h2>Codo a codo<br> Tours</h2>
-            <p>Ingres· o registrate para acceder a miles de promociones</p>
+            <p>Ingres√° o registrate para acceder a miles de promociones</p>
          </div>
       </div>
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-               <form>
+               <form method = "post" action =./usuarios >
                   <div class="form-group">
                      <label>Usuario</label>
                      <input type="text" class="form-control" placeholder="User Name">
                   </div>
                   <div class="form-group">
-                     <label>ContraseÒa</label>
+                     <label>Contrase√±a</label>
                      <input type="password" class="form-control" placeholder="Password">
                   </div>
                   <button type="submit" class="btn btn-black">Login</button>
